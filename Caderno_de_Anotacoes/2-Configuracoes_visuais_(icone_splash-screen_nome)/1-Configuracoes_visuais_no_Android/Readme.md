@@ -1,5 +1,12 @@
 # Configurações visuais no Android
 
+Faremos:
+
+- Nome da aplicação
+- ícone
+- splash screen
+- ID da aplicação
+
 ## Nome do app
 
 ### android/app/src/main/res/values/strings.xml
