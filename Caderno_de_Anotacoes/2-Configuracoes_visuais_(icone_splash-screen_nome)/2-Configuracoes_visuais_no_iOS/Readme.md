@@ -35,9 +35,9 @@ o mesmo valor q o `application Id` do Android: `com.nome_da_empresa.nome_do_app`
 No xcode, na pasta `Images.xcassets` do seu projeto, selecione a opção
 `AppIcon`.
 
-Daquele arquivo gerado pelo Ape Tools, em `bundle\iOS\AppIcon.appiconset` vc
-verá diversos tamanhos do ícone. Coloque-os no `AppIcon` nos locais adequados
-aos tamanhos.
+Daquele arquivo gerado pelo Ape Tools (veja última aula), em
+`bundle\iOS\AppIcon.appiconset` vc verá diversos tamanhos do ícone. Coloque-os
+no `AppIcon` nos locais adequados aos tamanhos.
 
 ![fig7](fig7.png)
 
