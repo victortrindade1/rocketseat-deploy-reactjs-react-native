@@ -6,7 +6,7 @@ O One Signal vale tanto pra Android qnt pra iOS. Inicialmente precisamos configu
 
 ## Configurando App no portal da Apple
 
-No portal `<developer.apple.com>`, vá em `Certificates, Identifiers & Profiles`.
+No portal <developer.apple.com>, vá em `Certificates, Identifiers & Profiles`.
 
 ![fig1](fig1.png)
 
@@ -31,7 +31,7 @@ Clique em Continue > Register > Done.
 
 ## Push Notifications do One Signal
 
-`Push Notification` são aquelas notificações q chegam pro usuário mesmo se o app tiver fechado. Vamos criar as push notifications pela ferramenta `One Signal`. É uma ferramenta gratuita e sem limites de pushs.
+`Push Notifications` são aquelas notificações q chegam pro usuário mesmo se o app tiver fechado. Vamos criar as push notifications pela ferramenta `One Signal`. É uma ferramenta gratuita e sem limites de pushs.
 
 Visite: <https://github.com/OneSignal/react-native-onesignal>
 
