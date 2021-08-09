@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+- [Configurações visuais no iOS](#configura%C3%A7%C3%B5es-visuais-no-ios)
+  - [Nome da aplicação](#nome-da-aplica%C3%A7%C3%A3o)
+  - [Ícone da aplicação](#%C3%ADcone-da-aplica%C3%A7%C3%A3o)
+  - [Splash Screen](#splash-screen)
+  - [Orientação vertical/horizontal da tela](#orienta%C3%A7%C3%A3o-verticalhorizontal-da-tela)
+
+<!-- /TOC -->
+
 # Configurações visuais no iOS
 
 Faremos:

@@ -1,3 +1,23 @@
+<!-- TOC -->
+
+- [Sumário](#sum%C3%A1rio)
+- [Configurações visuais no Android](#configura%C3%A7%C3%B5es-visuais-no-android)
+  - [Nome do app](#nome-do-app)
+    - [android/app/src/main/res/values/strings.xml](#androidappsrcmainresvaluesstringsxml)
+  - [Ícone do app](#%C3%ADcone-do-app)
+    - [Gere o ícone](#gere-o-%C3%ADcone)
+    - [Substitua o ícone original pelo gerado](#substitua-o-%C3%ADcone-original-pelo-gerado)
+      - [android/app/src/main/AndroidManifest.xml](#androidappsrcmainandroidmanifestxml)
+  - [Splash Screen](#splash-screen)
+    - [android/app/src/main/res/values/colors.xml](#androidappsrcmainresvaluescolorsxml)
+    - [android/app/src/main/res/drawable/background_splash.xml](#androidappsrcmainresdrawablebackground_splashxml)
+    - [android/app/src/main/res/values/styles.xml](#androidappsrcmainresvaluesstylesxml)
+      - [android/app/src/main/AndroidManifest.xml](#androidappsrcmainandroidmanifestxml)
+  - [Configurar ID do pacote da aplicação](#configurar-id-do-pacote-da-aplica%C3%A7%C3%A3o)
+    - [android/app/build.gradle](#androidappbuildgradle)
+
+<!-- /TOC -->
+
 # Configurações visuais no Android
 
 Faremos:

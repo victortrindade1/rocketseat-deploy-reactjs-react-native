@@ -1,3 +1,18 @@
+<!-- TOC -->
+
+- [Configurando o One Signal](#configurando-o-one-signal)
+  - [Configurando App no portal da Apple](#configurando-app-no-portal-da-apple)
+  - [Push Notifications do One Signal](#push-notifications-do-one-signal)
+    - [Configurando One Signal no Android](#configurando-one-signal-no-android)
+      - [android/app/src/main/AndroidManifest.xml](#androidappsrcmainandroidmanifestxml)
+      - [android/app/build.gradle](#androidappbuildgradle)
+    - [Adicionando app no One Signal](#adicionando-app-no-one-signal)
+      - [iOS](#ios)
+        - [xcode](#xcode)
+      - [Android](#android)
+
+<!-- /TOC -->
+
 # Configurando o One Signal
 
 O One Signal é uma plataforma q permite lançar notificações no app sem q o usuário esteja mexendo.
