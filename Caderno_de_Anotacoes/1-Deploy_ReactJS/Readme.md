@@ -19,12 +19,12 @@ Vc pode deployar pelo CLI, mas o servidor possui uma interface gráfica mt boa.
 Entre no Netlify <https://www.netlify.com/>, cadastre, crie um novo projeto, e
 vá em `sites`
 
-![fig1](fig1.png)
+![fig1](imgs/fig1.png)
 
 Pro netlify deployar, vc vai precisar ter o código no github (ou bitbucket, ou
 gitlab).
 
-![fig2](fig2.png)
+![fig2](imgs/fig2.png)
 
 Vai aparecer um domínio temporário. Vc pode facilmente configurar um domínio.
 Este domínio temporário, se vc acessar alguma rota e der um F5, não vai
@@ -32,7 +32,7 @@ recarregar a página, isto pq o netlify ainda não reconhece suas rotas. Pra ele
 reconhecer, basta colocar uma regrinha, q está descrito na doc do
 create-react-app:
 
-![fig3](fig3.png)
+![fig3](imgs/fig3.png)
 
 Crie o arquivo `_redirects` na pasta `public`.
 

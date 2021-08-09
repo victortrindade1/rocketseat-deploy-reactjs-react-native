@@ -8,21 +8,21 @@ O One Signal vale tanto pra Android qnt pra iOS. Inicialmente precisamos configu
 
 No portal <developer.apple.com>, vá em `Certificates, Identifiers & Profiles`.
 
-![fig1](fig1.png)
+![fig1](imgs/fig1.png)
 
 Vá em `App IDs` e clique no botão +
 
-![fig2](fig2.png)
+![fig2](imgs/fig2.png)
 
 Coloque o nome verdadeiro da aplicação, podendo usar maiúsculas e espaço.
 
-![fig3](fig3.png)
+![fig3](imgs/fig3.png)
 
 Coloque o bundle ID. Este é o `Bundle Identifier` q vc configurou no xcode, o
 mesmo do `application Id` do Android. Seu formato é assim:
 `com.nome_da_empresa.nome_do_app`
 
-![fig4](fig4.png)
+![fig4](imgs/fig4.png)
 
 Mais abaixo, existem uma série de opções q vc pode deixar habilitado no app,
 como iCloud, Wallet, etc. O professor não marcou nenhuma das opções.
@@ -121,7 +121,7 @@ import com.android.build.OutputFile
 
 No portal <https://app.onesignal.com/>, faça login e adicione um novo App. Escolha uma plataforma q use o app. O professor começou pela Apple:
 
-![fig5](fig5.png)
+![fig5](imgs/fig5.png)
 
 O One Signal vai pedir o certificado de produção `.p12`. Um jeito de conseguir esse certificado é usando a ferramenta `Provisionator` do `One Signal`.
 
@@ -129,17 +129,17 @@ Acesse: <https://onesignal.com/provisionator>
 
 Clique em `Get Started`. Coloque suas credenciais da Apple (Apple ID e password). Coloque seu Time, e selecione o App (só vai aparecer se vc tiver feito aquela configuração acima no portal da Apple). Clique em `Generate`.
 
-![fig6](fig6.png)
+![fig6](imgs/fig6.png)
 
 O Provisionator vai gerar 3 certificados. O q importa é o primeiro.
 
 > Repare q ele tb deu uma senha. Vc vai precisar dela no One Signal
 
-![fig7](fig7.png)
+![fig7](imgs/fig7.png)
 
 Faça upload do certificado no One Signal. Use a senha gerada pelo provisionator:
 
-![fig8](fig8.png)
+![fig8](imgs/fig8.png)
 
 Dê um Save e feche o setup.
 
@@ -147,21 +147,21 @@ Dê um Save e feche o setup.
 
 Abra o xcode, vá na aplicação. Vá na aba `Capabilities` e marque a flag `Push Notifications`:
 
-![fig15](fig15.png)
+![fig15](imgs/fig15.png)
 
 Marque tb a flag `Background Modes`, e nela, a opção `Remote notifications`:
 
-![fig16](fig16.png)
+![fig16](imgs/fig16.png)
 
 #### Android
 
 Com a parte iOS configurada, vá em `Settings` no portal OneSignal:
 
-![fig9](fig9.png)
+![fig9](imgs/fig9.png)
 
 Selecione `Google Android` em `Native App Platforms`:
 
-![fig10](fig10.png)
+![fig10](imgs/fig10.png)
 
 O One Signal vai pedir o `Firebase Server Key` e o `Firebase Sender ID`.
 
@@ -169,18 +169,18 @@ Acesse o Firebase: <https://console.firebase.google.com/>
 
 Logue. Adicione um projeto. Dê um nome a ele.
 
-![fig11](fig11.png)
+![fig11](imgs/fig11.png)
 
 No Firebase, vá em `Configurações do projeto`:
 
-![fig12](fig12.png)
+![fig12](imgs/fig12.png)
 
 Vá em `Cloud Messaging e pegue a chave do servidor e ID do remetente:
 
-![fig13](fig13.png)
+![fig13](imgs/fig13.png)
 
 No One Signal, cole a `chave do servidor` em `Firebase Server Key`, e o `ID do remetente` em `Firebase Sender ID`. Dê um Save:
 
-![fig14](fig14.png)
+![fig14](imgs/fig14.png)
 
 O One Signal oferece pra configurar SDK, RN... mas o professor não mexeu nisso, apenas Firebase.

@@ -30,7 +30,7 @@ Acesse: <https://apetools.webprofusion.com/#/tools/imagegorilla>
 
 Escolha uma imagem png 1024x1024.
 
-![fig4](fig4.png)
+![fig4](imgs/fig4.png)
 
 Selecione `Android` e `iOS`.
 
