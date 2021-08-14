@@ -1,4 +1,4 @@
-# Configurando ambiente Staging no Android
+# Configurando ambiente no Android
 
 Vc até agora trabalhou com 2 ambientes: `Desenvolvimento` e `Produção`. Agora vc vai ver um terceiro ambiente, o `Staging`. O `staging` é o ambiente onde vc testa a aplicação em produção, porém sem ter usuários externos. Isso permite fazer testes nas atualizações antes de entrar pro ar.
 
