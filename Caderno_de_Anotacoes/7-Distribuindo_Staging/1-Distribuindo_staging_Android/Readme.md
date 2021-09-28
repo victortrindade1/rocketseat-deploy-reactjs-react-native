@@ -43,3 +43,5 @@ Marque esta opção. Aqui colocaremos nosso grupo de desenvolvedores. Toda vez q
 Dê um `Save and build`.
 
 Se vc verificar seu e-mail, vai ver a versão do app pra instalar no celular no e-mail. Este app será idêntico ao da produção, sendo q este vc tem em mãos antes.
+
+> PS: no meu deu erro pq eu usava um gradle numa versão incompatível com a versão do NDK. Não tentei resolver.
