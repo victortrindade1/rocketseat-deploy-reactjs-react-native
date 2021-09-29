@@ -21,7 +21,7 @@ O One Signal vale tanto pra Android qnt pra iOS. Inicialmente precisamos configu
 
 ## Configurando App no portal da Apple
 
-No portal <developer.apple.com>, vá em `Certificates, Identifiers & Profiles`.
+No portal <https://developer.apple.com>, vá em `Certificates, Identifiers & Profiles`.
 
 ![fig1](imgs/fig1.png)
 
